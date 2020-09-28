@@ -1,0 +1,434 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0; 
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav {
+    background-color:#0E0D13;
+    color: white;
+    padding: 15px 0px;
+    font-size: 13px;
+    width: 100%;
+}
+.header {
+    color: white;
+    font-size: 25px;
+    margin: 0px 350px 0px 40px
+}
+.header1 {
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px 0px 0px;
+}
+.header2 {
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px
+}
+.header3 {
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px
+}
+.header4 {
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px
+}
+.header5 {
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px
+}
+.buy {
+    color: white;
+    text-decoration: none;
+    margin: 0px 0px 0px 10px;
+    border: 2px solid #4AAB00;
+    background-color: #4AAB00;
+    padding: 2px 15px
+}
+header {
+    height: 500px;
+    background-image: url("Big_Shrimp.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    width: 100%;
+} 
+.numb {
+    margin: 100px 400px 0px 200px;
+}
+.better {
+    color: white;
+    font-size: 50px;
+}
+.first {
+    font-size: 15.5px;
+    color: white;
+    margin-right: 90px;
+    margin-bottom: 40px;
+    
+}
+.details {
+    text-decoration: none;
+    color: white;
+    border: 2px solid #4AAB00;
+    background-color: #4AAB00;
+    padding: 10px 20px;
+    margin: auto;
+}
+.details1 {
+    text-decoration: none;
+    color: white;
+    border: 2px solid #4AAB00;
+    background-color: #4AAB00;
+    padding: 10px 20px;
+    margin: 30px 0px 0px 100px 
+}
+.about {
+    font-size: 40px;
+    color: #4AAB00;
+    margin: 0px 100px 10px 100px;
+   
+
+}
+.second {
+    margin: 20px 200px 20px 100px;
+    color: black;
+    font-size: 20px;
+}
+.second1 {
+    margin: 20px 200px 40px 100px;
+    color: black;
+    font-size: 20px;
+}
+.part2 {
+    margin: 20px 0px 0px 0px; 
+} 
+.shrimp {
+    float: right;
+    width: 500px;
+    height: 500px;
+    margin: 0px 90px 0px 200px;
+}
+#ad {
+    background-color: white;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.part3 {
+    height: 600px;
+    background-image: url("Shrimp_Background.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.our {
+    color: #4AAB00;
+    text-align: center;
+    font-size: 50px;
+    margin: 100px 10px 10px 10px
+}
+.third {
+    color: white;
+    text-align: center;
+    margin: 0px 400px;
+    font-size: 17px;
+}
+.our2 {
+    color:#4AAB00;
+    text-align: center;
+    font-size: 40px;
+    margin: 10px
+}
+h5 {
+    margin: 0px;
+    text-align: center;
+}
+.border {
+    color: white;
+    font-style: 5px;
+    border-bottom: 2px solid #4AAB00;
+    text-align: center;
+    width: 5%;
+    margin: 0px 0px 0px 500px
+}
+.food {
+    background-image: url("1@2x.png");
+    border: 2px solid white;
+    grid-row: 1;
+    grid-column: 1;
+}
+.part4 {
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 500px;
+    width: 800px;
+    margin: 50px 50px 0px 200px;
+    grid-gap: 0px 20px
+
+}
+.grid-item {
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.food1 {
+    background-image: url("2@2x.png");
+    border: 2px solid white;
+    grid-row: 1;
+    grid-column: 2;
+}
+.food2 {
+    background-image: url("3@2x.png");
+    border: 2px solid white;
+    grid-row: 1;
+    grid-column: 3;
+}
+.food3 {
+    background-image: url("4@2x.png");
+    border: 2px solid white;
+    grid-row: 1;
+    grid-column: 4;
+}
+.it {
+    text-decoration: none;
+    color: black;
+    border: 20px solid white;
+    text-align: center;
+    background-color: white;
+    font-weight: 400;
+    margin: 0px 0px 70px 0px
+
+}
+.le {
+    text-decoration: none;
+    color: black;
+    border: 20px solid white;
+    text-align: center;
+    background-color: white;
+    font-weight: 400;
+    margin: 0px 0px 70px 0px
+
+
+}
+.ma {
+    text-decoration: none;
+    color: black;
+    border: 20px solid white;
+    text-align: center;
+    background-color: white;
+    font-weight: 400;
+    margin: 0px 0px 70px 0px
+
+
+}
+.bi {
+    text-decoration: none;
+    color: black;
+    border: 20px solid white;
+    text-align: center;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0px 0px 70px 0px
+
+
+}
+.part5 {
+    margin: 0px 100px;
+    padding: 0px
+
+}   
+main {
+    background-color: white;
+    height: 800px;
+    background-size: 100% 100%;
+    background-position: center;
+    width: 100%;
+}
+.food12 {
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 100%;
+    width: 100%;
+    margin: 10px 400px;
+    grid-gap: 0px 20px
+}
+.pz {
+    color:#4AAB00;
+    border-bottom: 2px solid #4AAB00;
+    width: 20%;
+}
+.pizza {
+    grid-row: 1;
+    grid-column: 1;
+    margin: 0px 100px 0px -100px
+}
+.fs {
+    color:#4AAB00;
+    border-bottom: 2px solid #4AAB00;
+    width: 20%;
+}
+.fishis {    
+    grid-row: 2;
+    grid-column: 1;
+    margin: 0px 100px 0px -100px
+}
+.grid-item1 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.lm {
+    color:#4AAB00;
+    border-bottom: 2px solid #4AAB00;
+    width: 20%;
+}
+.lemo {   
+    grid-row: 1;
+    grid-column: 2;
+}
+.mg {
+    color:#4AAB00;
+    border-bottom: 2px solid #4AAB00;
+    width: 20%;
+}
+.megis {    
+    grid-row: 2;
+    grid-column: 2;
+}
+p {
+    color:#4AAB00;
+    font-size: 13px;
+    margin: 20px 0px 0px 0px
+}
+a {
+    color:#4AAB00;
+    font-size: 17px;
+    font-weight: bold;
+}
+small {
+    color:#6C6B6B
+}
+.details2 {
+    text-decoration: none;
+    color: white;
+    border: 2px solid #4AAB00;
+    background-color: #4AAB00;
+    padding: 10px 20px;   
+    margin: 10px
+}   
+#loc {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    background-position: center;
+    margin: 30px 0px 70px 0px;
+    background-size:cover
+   
+}
+.last {
+    background-image:url("Last_background.png");
+    height: 500px;
+    background-size: 100% 100%;
+    background-position: center;
+    width: 100%;
+    
+}   
+.last1 {
+    color: #4AAB00;
+    color:#4AAB00;
+    text-align: center;
+    font-size: 40px;
+    margin: 100px 10px 10px 10px; 
+    padding-top: 100px 
+}
+.last2 {
+    color: white;
+    margin: 0px 0px 60px 0px;
+    text-align: center;
+}
+.book {
+    text-decoration: none;
+    color: white;
+    border: 2px solid #4AAB00;
+    background-color: #4AAB00;
+    padding: 10px 20px;  
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 12%;
+    margin-top: 50px;
+    text-align: center;
+
+}
+.last3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+footer {
+    display: flex;
+    background-color: black;
+    height: 80px;
+    background-size: 100% 100%;
+    background-position: center;
+    width: 100%;
+    justify-content: space-between;
+}
+    
+.last4 {
+    margin: auto;
+    text-align: left;
+ }
+ .f0 {
+     font-size: 30px;
+     margin: 0px;
+ }
+ #fix {
+     margin: 0px;
+     color: white
+ }
+.last5 {
+    margin: auto;
+    margin-right: 30px;
+    text-align: center;
+}
+.design {
+    margin: 0px;
+    color: white;
+    padding: 0px;
+}
+#fix1 {
+    margin: 0px;
+    padding: 0px
+}
+
+.last6 {
+    margin: auto;
+    text-align: right;
+}
+.follow {
+    margin: 0px;    
+    margin-right: 25px;
+}
+#final {
+    margin: 0px;
+    width: 30%;
+    height: 30%;
+    padding: 0px
+}
